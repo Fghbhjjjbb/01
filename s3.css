@@ -1,0 +1,16 @@
+body{
+        background-color: rgba(214, 216, 233, 1);
+        color: rgba(58, 124, 121, 1);
+        margin: 5px;
+        padding: 2px;
+        text-align:justify;
+}
+header, footer{
+        background-color: rgba(39, 39, 39, 1);
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+}
+h2,h3,h4{
+        text-decoration-line: underline;
+        color: rgba(255, 255, 255, 1);
+}

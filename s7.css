@@ -1,0 +1,31 @@
+body{
+        background-color: rgba(214, 216, 233, 1);
+        color: rgba(58, 124, 121, 1);
+        margin: 5px;
+        padding: 2px;
+        text-align:justify;
+        font-family:Time new Georgia, 'Times New Roman', Times, serif;
+}
+header, footer{
+        background-color: rgba(39, 39, 39, 1);
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+}
+h2,h3,h4{
+        text-decoration-line: underline;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+}
+p{
+        text-align: justify;
+        text-indent: 8ch;
+}
+p::first-letter {
+        color: hsla(0, 100%, 50%, 1);
+        font-size: 150%;
+        font-weight: bold;
+        text-decoration-line: underline;
+}
+p:hover{
+        color: hsla(120, 41%, 47%, 1);
+}
