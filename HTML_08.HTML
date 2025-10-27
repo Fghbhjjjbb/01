@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="Ru-Ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаблон страницы</title>
+    <meta name="description" content="The HTML5 sample">
+    <meta name="author" content="from internet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Шаг 1: Создаем собственный стиль для выделения букв в заголовках -->
+    <style>
+        .letter {
+            color: rgb(161, 10, 154);
+            font-size: 140%;
+            position: relative;
+            top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шаг 2: Создаем основную структуру страницы с div-блоками -->
+    <!-- Заголовок страницы -->
+    <div align="center" id="head-of-page" style="background-color: lightskyblue;">
+        <h1>
+            <!-- Выделяем первую букву "З" в заголовке -->
+            <span class="letter">З</span>аголовок
+        </h1>
+        <hr>
+    </div>
+
+    <!-- Основное содержание страницы -->
+    <div id="content" style="background-color: papayawhip;">
+        <h2>
+            <!-- Выделяем первую букву "С" в заголовке содержания -->
+            <span class="letter">С</span>одержание
+        </h2>
+        
+        <!-- Боковая панель и основной текст в одной строке -->
+        <div id="side-panel" style="float: left; width: 25%;">
+            <h3>
+                <!-- Выделяем первую букву "Б" в заголовке боковой панели -->
+                <span class="letter">Б</span>оковая панель
+            </h3>
+        </div>
+        
+        <div id="main-text" style="float: left;">
+            <h3>
+                <!-- Выделяем первую букву "О" в заголовке основного текста -->
+                <span class="letter">О</span>сновной текст
+            </h3>
+        </div>
+        
+        <!-- Шаг 3: Добавляем clear:left для отмены инструкций предыдущего блока -->
+        <div style="clear: left;"></div>
+    </div>
+
+    <!-- Подвал страницы -->
+    <div id="foot-of-page" style="background-color: lightskyblue;">
+        <h2>
+            <!-- Выделяем первую букву "П" в заголовке подвала -->
+            <span class="letter">П</span>одвал
+        </h2>
+    </div>
+
+    <!-- Подключаем внешний скрипт -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
